@@ -1,11 +1,12 @@
 package main;
 
-import util.ScannerUtil;
+import viewer.MemberViewer;
 
 public class MovieMain {
 	public static void main(String[] args) {
 		
-		System.out.println("영화관리 프로그램");
-		
+        MemberViewer memberViewer = new MemberViewer();
+        memberViewer.showIndex();
+
 	}
 }
