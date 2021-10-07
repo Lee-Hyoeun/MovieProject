@@ -1,5 +1,9 @@
 package model;
 
+/*
+ * 회원관리 클래스
+ */
+
 public class MemberDTO {
 	//필드
 	private int id;				//회원번호
@@ -7,6 +11,10 @@ public class MemberDTO {
 	private String password;	//비밀번호
 	private String nickname;	//닉네임
 	private int grade;			//등급(1.사용자 2.평론가 3.관리자)
+	
+//	private final int GRADE_USER = 1;
+//	private final int GRADE_EVAL = 2;
+//	private final int GRADE_MANAGER = 3;
 	
 	//메소드
 	public int getId() {
@@ -33,6 +41,7 @@ public class MemberDTO {
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
+	
 	public int getGrade() {
 		return grade;
 	}
@@ -51,6 +60,8 @@ public class MemberDTO {
 
         return false;
     }
+
+
 	
 
 }

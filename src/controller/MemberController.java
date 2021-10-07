@@ -65,9 +65,9 @@ public class MemberController {
 	}
 	
 	
-	public MemberDTO ValidateGrade(int grade) {
+	public MemberDTO GradeOne(int grade) {
 		for(MemberDTO m : list) {
-			if(m.getGrade() == 1) {
+			if(m.getGrade() == grade) {
 				return deepCopy(m);
 			} 
 		}
