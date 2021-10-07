@@ -143,15 +143,15 @@ public class MemberViewer {
 
 		while (true) {
 			if (grade == GRADE_USER) {
-				System.out.println("고객님께서 입장하셨습니다.");
+				System.out.println("고객님께서 입장하셨습니다. 이용하실 서비스를 선택해주세요.");
 				showUserMenu();
 
 			} else if (grade == GRADE_EVAL) {
-				System.out.println("평론가님께서 입장하셨습니다.");
+				System.out.println("평론가님께서 입장하셨습니다. 이용하실 서비스를 선택해주세요.");
 				showEvalMenu();
 
 			} else if (grade == GRADE_MANAGER) {
-				System.out.println("관리자님께서 입장하셨습니다.");
+				System.out.println("관리자님께서 입장하셨습니다. 이용하실 서비스를 선택해주세요.");
 				showManagerMenu();
 			}
 
